@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 
-function Playlist() {
+function Playlist(props) {
+    const [ playlist, setPlaylist ] = useState({});
 
     return (
         <div>
-            <h2>Playlist name</h2>
+            <h2>Playlist name here</h2>
             <ol>
                 <li>song 1</li>
                 <li>song 2</li>
