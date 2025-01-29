@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import SearchBar from './components/SearchBar';
+import SearchResults from './components/SearchResults';
+import Playlist from './components/Playlist';
 import './App.css';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     <>
       <h1>Spotify API Project</h1>
       <SearchBar />
+      <SearchResults />
+      <Playlist />
     </>
   )
 }

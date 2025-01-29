@@ -17,7 +17,6 @@ function SearchBar() {
                 value={search} 
                 onChange={handleChange}
             />
-            <p>results: ... {search} ...</p>
         </>
     )
 }
